@@ -7,13 +7,15 @@
     "downlevelIteration": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@yhooks/*": ["packages/*"]
+    },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "declaration": false,
     "strictNullChecks": true,
     "importHelpers": true
   },
-  "include": ["**/*"],
+  // "include": ["**/*"],
   "exclude": ["node_modules"]
 }

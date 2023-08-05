@@ -1,0 +1,22 @@
+{
+  "name": "@yhooks/use-auto-action-by-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yhooks/use-event-manager": "workspace:*"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.14.2",
+    "@types/react-router-dom": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react-router-dom": "^6.14.2"
+  }
+}
