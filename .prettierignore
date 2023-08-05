@@ -1,0 +1,15 @@
+# .prettierignore
+
+/node_modules
+# OS
+.DS_Store
+.idea
+.editorconfig
+.npmrc
+package-lock.jsons
+# Ignored suffix
+*.log
+*.md
+*ignore
+## Built-files
+.cache

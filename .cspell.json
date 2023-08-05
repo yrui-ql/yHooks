@@ -1,0 +1,27 @@
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  // 配置项目中可以出现的，我们技术人员认可的'单词'
+  "words": ["commitlint", "antd"],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  // 即使拼写正确，但也不希望出现在我们项目中的，比如一些辱骂的词汇之类的
+  "flagWords": ["fuck"],
+  // 哪些路径下的文件不用检查拼写
+  "ignorePaths": [
+    "node_modules/**",
+    "src/reportWebVitals.ts",
+    "package.json",
+    ".cspell.json",
+    ".eslintrc.js",
+    "public/**",
+    ".gitignore",
+    ".prettierrc",
+    ".commitlintrc.js",
+    ".eslintcache"
+  ]
+}
